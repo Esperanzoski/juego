@@ -61,10 +61,10 @@ while contador_compu < 3 and contador_usuario < 3:
         print('Usuario:', contador_usuario, 'Computador:', contador_compu)
 
 if contador_usuario >= 3:
-    print('FELICITACIONES! HAS GANADO!')
+    print('felicitaciones, ganaste!')
     print('Puntajes finales:')
     print('Usuario:', contador_usuario, 'Computador:', contador_compu)
 elif contador_compu >= 3:
-    print('HAS PERDIDO :(')
+    print('perdiste, sigue intentando')
     print('Puntajes finales:')
     print('Usuario:', contador_usuario, 'Computador:', contador_compu)
