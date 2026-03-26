@@ -1,6 +1,6 @@
 from random import randint 
 
-posibilidades = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spok']
+posibilidades = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spork']
 
 contador_compu = 0
 contador_usuario = 0
@@ -12,12 +12,11 @@ while contador_compu < vidas and contador_usuario < vidas:
     
     mov_compu = randint(0,4)
     jugada_compu = posibilidades[mov_compu]
-    usuario = input('Rock, Paper, Scissors, Lizard or Spok... ')
+    usuario = input('Rock, Paper, Scissors, Lizard or Spork... ')
     
     if usuario == jugada_compu:
         print('Empate')
         print('Intenta de nuevo!')
-        print('Chao')
 
     elif jugada_compu == 'Spork' and (usuario == 'Scissors' or usuario == 'Rock'):
         contador_compu += 1
@@ -62,10 +61,10 @@ while contador_compu < vidas and contador_usuario < vidas:
         print('Usuario:', contador_usuario, 'Computador:', contador_compu)
 
 if contador_usuario >= 3:
-    print('FELICITACIONES! HAS GANADO!')
+    print('felicitaciones, ganaste!')
     print('Puntajes finales:')
     print('Usuario:', contador_usuario, 'Computador:', contador_compu)
 elif contador_compu >= 3:
-    print('HAS PERDIDO :(')
+    print('perdiste, sigue intentando')
     print('Puntajes finales:')
     print('Usuario:', contador_usuario, 'Computador:', contador_compu)
