@@ -17,7 +17,6 @@ while contador_compu < vidas and contador_usuario < vidas:
     if usuario == jugada_compu:
         print('Empate')
         print('Intenta de nuevo!')
-        print('Chao')
 
     elif jugada_compu == 'Spork' and (usuario == 'Scissors' or usuario == 'Rock'):
         contador_compu += 1
