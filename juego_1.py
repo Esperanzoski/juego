@@ -7,7 +7,7 @@ contador_usuario = 0
 
 print('Gana el primero que llega a tres! Mucha suerte!')
 
-while contador_compu < 3 and contador_usuario < 3:
+while contador_compu < 5 and contador_usuario < 5:
     if contador_usuario >= 3 or contador_compu >= 3:
         break
     
