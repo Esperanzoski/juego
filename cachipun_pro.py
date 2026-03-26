@@ -4,8 +4,9 @@ posibilidades = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spok']
 
 contador_compu = 0
 contador_usuario = 0
+vidas = 5
 
-while contador_compu < 3 and contador_usuario < 3:
+while contador_compu < vidas and contador_usuario < vidas:
     if contador_usuario >= 3 or contador_compu >= 3:
         break
     
