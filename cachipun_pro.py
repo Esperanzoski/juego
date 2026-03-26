@@ -16,3 +16,4 @@ while contador_compu < 3 and contador_usuario < 3:
     if usuario == jugada_compu:
         print('EMPATARON!')
         print('Intenta de nuevo!')
+        print('hola')
