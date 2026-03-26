@@ -17,3 +17,24 @@ while contador_compu < 3 and contador_usuario < 3:
         print('Empate')
         print('Intenta de nuevo!')
         print('Chao')
+
+    elif jugada_compu == 'Spork' and (usuario == 'Scissors' or usuario == 'Rock'):
+        contador_compu += 1
+        print('PERDISTE ESTA RONDA :(')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)  
+    elif jugada_compu == 'Lizard' and (usuario == 'Spork' or usuario == 'Paper'):
+        contador_compu += 1
+        print('PERDISTE ESTA RONDA :(')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)
+    elif jugada_compu == 'Rock' and (usuario == 'Lizard' or usuario == 'Scissors'):
+        contador_compu += 1
+        print('PERDISTE ESTA RONDA :(')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)
+    elif jugada_compu == 'Paper' and (usuario == 'Rock' or usuario == 'Spork'): #REVISAR 
+        contador_compu += 1
+        print('PERDISTE ESTA RONDA :(')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)          
+    elif jugada_compu == 'Scissors' and (usuario == 'Paper' or usuario == 'Lizard'):
+        contador_compu += 1
+        print('PERDISTE ESTA RONDA :(')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)  
