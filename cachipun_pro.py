@@ -17,3 +17,24 @@ while contador_compu < 3 and contador_usuario < 3:
         print('Empate')
         print('Intenta de nuevo!')
         print('Chao')
+        
+    elif usuario == 'Spork' and (jugada_compu == 'Scissors' or jugada_compu == 'Rock'):
+        contador_usuario += 1
+        print('GANASTE ESTA RONDA!')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)
+    elif usuario == 'Lizard' and (jugada_compu == 'Spork' or jugada_compu == 'Paper'):
+        contador_usuario += 1
+        print('GANASTE ESTA RONDA!')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)
+    elif usuario == 'Rock' and (jugada_compu == 'Lizard' or jugada_compu == 'Scissors'):
+        contador_usuario += 1
+        print('GANASTE ESTA RONDA!')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)
+    elif usuario == 'Paper' and (jugada_compu == 'Rock' or jugada_compu == 'Spork'):
+        contador_usuario += 1
+        print('GANASTE ESTA RONDA!')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)
+    elif usuario == 'Scissors' and (jugada_compu == 'Paper' or jugada_compu == 'Lizard'):
+        contador_usuario += 1
+        print('GANASTE ESTA RONDA!')
+        print('Usuario:', contador_usuario, 'Computador:', contador_compu)
