@@ -14,6 +14,6 @@ while contador_compu < 3 and contador_usuario < 3:
     usuario = input('Rock, Paper, Scissors, Lizard or Spok... ')
     
     if usuario == jugada_compu:
-        print('EMPATARON!')
+        print('Empate')
         print('Intenta de nuevo!')
-        print('hola')
+        print('Chao')
