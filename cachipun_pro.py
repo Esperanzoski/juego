@@ -1,6 +1,6 @@
 from random import randint 
 
-posibilidades = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spok']
+posibilidades = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spork']
 
 contador_compu = 0
 contador_usuario = 0
@@ -12,7 +12,7 @@ while contador_compu < vidas and contador_usuario < vidas:
     
     mov_compu = randint(0,4)
     jugada_compu = posibilidades[mov_compu]
-    usuario = input('Rock, Paper, Scissors, Lizard or Spok... ')
+    usuario = input('Rock, Paper, Scissors, Lizard or Spork... ')
     
     if usuario == jugada_compu:
         print('Empate')
