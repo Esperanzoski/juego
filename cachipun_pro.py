@@ -12,3 +12,7 @@ while contador_compu < 3 and contador_usuario < 3:
     mov_compu = randint(0,4)
     jugada_compu = posibilidades[mov_compu]
     usuario = input('Rock, Paper, Scissors, Lizard or Spok... ')
+    
+    if usuario == jugada_compu:
+        print('Empate')
+        print('Intenta de nuevo!')
