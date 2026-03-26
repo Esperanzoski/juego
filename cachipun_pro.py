@@ -4,10 +4,10 @@ posibilidades = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spok']
 
 contador_compu = 0
 contador_usuario = 0
-vidas = 5
+vidas = 3
 
 while contador_compu < vidas and contador_usuario < vidas:
-    if contador_usuario >= 3 or contador_compu >= 3:
+    if contador_usuario >= vidas or contador_compu >= vidas:
         break
     
     mov_compu = randint(0,4)
